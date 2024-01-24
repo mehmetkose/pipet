@@ -19,13 +19,12 @@ const data = [1, 2, 3, 4, 5];
 
 const addTwo = (arr) => arr.map((num) => num + 2);
 const squareAsync = async (arr) => arr.map((num) => num * num);
-const filterEvenAsync = async (arr) => arr.filter(async (num) => num % 2 === 0);
 
 (async () => {
   const result = await pipet(data)
     .add(addTwo)
     .add(squareAsync)
-    .add(filterEvenAsync)
+    .add(addTwo)
     .execute();
 
   console.log(result); // Output: [6, 18]
