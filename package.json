@@ -1,0 +1,16 @@
+{
+  "name": "pipet",
+  "version": "0.1.0",
+  "description": "A simple npm package for creating lazy, chainable, and reusable pipes for data transformation and processing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest"
+  },
+  "keywords": [
+    "pipe",
+    "chain",
+    "transformation"
+  ],
+  "author": "Mehmet Kose",
+  "license": "MIT"
+}
