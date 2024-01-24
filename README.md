@@ -10,11 +10,10 @@ You can install `pipet` using npm:
 npm install pipet
 ```
 
-
 ## Usage
 
 ```javascript
-const pipet = require('pipet');
+const pipet = require("pipet");
 
 const data = [1, 2, 3, 4, 5];
 
@@ -31,9 +30,7 @@ const filterEvenAsync = async (arr) => arr.filter(async (num) => num % 2 === 0);
 
   console.log(result); // Output: [6, 18]
 })();
-
 ```
-
 
 ## API
 
@@ -49,7 +46,14 @@ Adds a data transformation operation to the pipeline.
 
 Executes the pipeline and returns the transformed data.
 
+## Tests
+
+```
+npm run test
+```
+
 ## License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Author
